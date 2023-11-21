@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main ()
+{ 
+              int height =14,base =7,area;
+              printf("Enter the Height: ");
+              scanf("%d",&height);
+              printf("Enter the Base: ");
+              scanf("%d",&base);
+              
+              area= 0.5*base* height ;
+              printf("\nThe Area is: %d",area);
+return 0 ;           
+}
