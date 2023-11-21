@@ -1,0 +1,18 @@
+#include<stdio.h>
+# define pi 3.142
+int main()
+{
+              double radius,area, perimeter;
+
+              //prompt user to enter radius of circle
+              printf("Enter the Radius: ");
+              scanf("%lf",&radius);
+              //calculate the area  and perimeter of circle
+              area=pi*radius*radius ;
+              perimeter =2*pi*radius;
+              //displaying the area and
+              printf("Area of circle is?\t%lf",area);
+              printf("\nPerimeter of circle is?\t%lf",perimeter);
+              return 0;
+
+}
