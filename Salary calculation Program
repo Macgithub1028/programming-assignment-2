@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{ 
+              double Allowance,BasicSal, TakeHomeSal,Inc;
+              
+              printf("\nEnter Allowance: ");
+              scanf("%.2lf",&Allowance);
+              
+              printf("\nEnter Basic Salary:");
+              scanf("%.2lf",&BasicSal);
+              
+              Inc=BasicSal*Allowance;
+              TakeHomeSal =0.35*Inc;
+              printf("\nThe Earned Income is:%lf",Inc);
+              printf("\nTake Home Salary is: %lf", TakeHomeSal);
+              
+    return 0;          
+}
